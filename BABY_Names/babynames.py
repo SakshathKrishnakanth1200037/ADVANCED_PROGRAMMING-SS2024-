@@ -1,10 +1,4 @@
-#!/usr/bin/python3
-# Copyright 2010 Google Inc.
-# Licensed under the Apache License, Version 2.0
-# http://www.apache.org/licenses/LICENSE-2.0
 
-# Google's Python Class
-# http://code.google.com/edu/languages/google-python-class/
 
 import sys
 import re
@@ -89,7 +83,7 @@ def main():
         if filename.endswith('.html'):
            process_file(filename, summary)
 
-  # +++your code here+++
+ 
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
   with open(args[0], 'r', encoding='utf-8') as file:
