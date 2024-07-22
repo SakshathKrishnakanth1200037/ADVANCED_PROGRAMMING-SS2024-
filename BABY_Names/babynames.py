@@ -89,6 +89,8 @@ def main():
   with open(args[0], 'r', encoding='utf-8') as file:
     file_content = file.read()
     print(extract_names(file_content))
-
+   
+# This condition checks if the script is being run directly (not imported as a module).
+# If true, it calls the main() function to execute the script.
 if __name__ == '__main__':
   main()
